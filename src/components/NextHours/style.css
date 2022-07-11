@@ -13,6 +13,7 @@
   margin: 30px auto;
   padding: 10px;
   max-width: 1024px;
+  overflow: scroll;
 }
 
 .hours li {

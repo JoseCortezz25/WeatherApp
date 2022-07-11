@@ -11,3 +11,10 @@
   font-size: 1.8rem;
   font-weight: bold;
 }
+
+
+@media screen and (max-width: 425px) {
+  .Hour {
+    margin-right: 20px;
+  } 
+}

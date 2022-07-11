@@ -52,8 +52,8 @@
 }
 
 .currentWeather--img img {
-  -webkit-filter: drop-shadow(5px 5px 2px #222);
-  filter: drop-shadow(5px 5px 2px #222);
+  -webkit-filter: drop-shadow(5px 5px 2px #3c3c3c9c);
+  filter: drop-shadow(5px 5px 2px #3c3c3c9c);
 }
 
 .currentTemperature {
@@ -72,4 +72,25 @@
   text-align: center;
   font-weight: bold;
   margin-bottom: -1.8rem;
+}
+
+
+@media screen and (max-width: 425px) {
+  .tempCurrent {
+    font-family: 'Anton', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .location {
+    margin-bottom: 0rem;
+  }
+
+  .currentWeather--stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
 }
