@@ -1,11 +1,21 @@
+import React from 'react';
 import './App.css';
 import { CurrentWeather } from './components/CurrentWeather'
+import { ApiContextProvider } from './context/ApiContext'
+import { ListDays } from './components/ListDays'
+import { NextHours } from './components/NextHours';
 
 function App() {
   return (
-    <div className="App">
-      <CurrentWeather />
-    </div>
+    <ApiContextProvider>
+      <div className="ContainerGeneral">
+        <CurrentWeather />
+        <div className="ContainerGeneral__box">
+          <NextHours />
+          <ListDays />
+        </div>
+      </div>
+    </ApiContextProvider>
   );
 }
 

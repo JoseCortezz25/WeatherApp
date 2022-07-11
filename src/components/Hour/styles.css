@@ -1,0 +1,13 @@
+.Hour {
+  background-color: var(--white-color);
+  padding: 10px 20px;
+  border-radius: 20px;
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  text-align: center;
+}
+
+.HourTemp {
+  font-size: 1.8rem;
+  font-weight: bold;
+}

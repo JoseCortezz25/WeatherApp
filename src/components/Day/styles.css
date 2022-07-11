@@ -1,0 +1,31 @@
+.day {
+  /* border: 1px solid red; */
+  text-align: center;
+  font-size: 1.8rem;
+  border-right: 1px solid var(--asbestos-color);
+  padding-right: 20px; 
+}
+
+.day:last-child {
+  border-right: none;
+}
+
+.day img{
+  margin: 5px 0;
+  object-fit: cover;
+}
+
+.tempMax {
+  font-weight: bold;
+}
+
+.day__temp {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid blue; */
+}
+
+.day__img {
+  width: 60px;
+}
