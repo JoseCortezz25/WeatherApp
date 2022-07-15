@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# WeatherApp
+Weather application developed in react with OpenWeatherMap API and Geolocation Web API
+![Screenshot of the weather app](https://raw.githubusercontent.com/JoseCortezz25/WeatherApp/master/screenshot.png)
+
+--- 
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
