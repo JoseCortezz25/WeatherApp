@@ -1,12 +1,13 @@
 import React from "react";
 import { useAPI } from "../../context/ApiContext";
+import { Loading } from "../Loading";
 import "./styles.css";
 
 export const CurrentWeather = () => {
   const weather = useAPI();
-  console.log(weather);
+
   if (!weather) {
-    return <p>Loading</p>;
+    return <Loading />;
   }
 
   return (

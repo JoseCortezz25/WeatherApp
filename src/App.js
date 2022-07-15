@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import { CurrentWeather } from './components/CurrentWeather'
-import { ApiContextProvider } from './context/ApiContext'
-import { ListDays } from './components/ListDays'
+import { CurrentWeather } from './components/CurrentWeather';
+import { ApiContextProvider } from './context/ApiContext';
+import { ListDays } from './components/ListDays';
 import { NextHours } from './components/NextHours';
 
 function App() {
